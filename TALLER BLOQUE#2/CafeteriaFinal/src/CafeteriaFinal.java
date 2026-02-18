@@ -133,14 +133,14 @@ public class CafeteriaFinal extends JFrame {
     }
 
     void inicializarCatalogo() {
-        catalogo.add(new Producto("P1", "Café Americano", 25.00, 50));
-        catalogo.add(new Producto("P2", "Café Latte", 35.00, 40));
-        catalogo.add(new Producto("P3", "Cappuccino", 32.00, 30));
-        catalogo.add(new Producto("P4", "Croissant", 28.00, 25));
-        catalogo.add(new Producto("P5", "Sandwich Pavo", 45.00, 20));
-        catalogo.add(new Producto("P6", "Muffin Arándano", 22.00, 35));
-        catalogo.add(new Producto("P7", "Jugo Naranja", 20.00, 40));
-        catalogo.add(new Producto("P8", "Agua Embotellada", 15.00, 60));
+        catalogo.add(new Producto("P1", "Café Americano", 2500.00, 50));
+        catalogo.add(new Producto("P2", "Café Latte", 3500.00, 40));
+        catalogo.add(new Producto("P3", "Cappuccino", 3200.00, 30));
+        catalogo.add(new Producto("P4", "Croissant", 2800.00, 25));
+        catalogo.add(new Producto("P5", "Sandwich Pavo", 4500.00, 20));
+        catalogo.add(new Producto("P6", "Arepas de queso", 2200.00, 35));
+        catalogo.add(new Producto("P7", "Jugo Naranja", 2000.00, 40));
+        catalogo.add(new Producto("P8", "Agua Embotellada", 1500.00, 60));
     }
 
     // ==================== PANEL 1: MENÚ ====================
@@ -1079,4 +1079,5 @@ public class CafeteriaFinal extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new CafeteriaFinal());
     }
+
 }
